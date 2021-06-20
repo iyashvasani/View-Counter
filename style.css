@@ -166,7 +166,7 @@ p {
     outline: none;
 }
 
-@media screen and (min-width: 280px) {
+@media screen and (max-width: 280px) {
     body {
         background-size: 140% 70%, auto;
     }
