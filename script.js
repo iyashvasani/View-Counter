@@ -1,16 +1,3 @@
-// SOCIAL PANEL CONTAINER
-const floating_btn = document.querySelector('.floating-btn');
-const close_btn = document.querySelector('.close-btn');
-const social_panel_container = document.querySelector('.social-panel-container');
-
-floating_btn.addEventListener('click', () => {
-    social_panel_container.classList.toggle('visible')
-});
-
-close_btn.addEventListener('click', () => {
-    social_panel_container.classList.remove('visible')
-});
-
 // COUNT API
 const countEl = document.getElementById('count');
 
@@ -23,3 +10,16 @@ function updateVisitCount() {
             countEl.innerHTML = res.value;
         })
 }
+
+// SOCIAL MEDIA PANEL 
+const floating_btn = document.querySelector('.floating-btn');
+const close_btn = document.querySelector('.close-btn');
+const social_panel_container = document.querySelector('.social-panel-container');
+
+floating_btn.addEventListener('click', () => {
+    social_panel_container.classList.toggle('visible')
+});
+
+close_btn.addEventListener('click', () => {
+    social_panel_container.classList.remove('visible')
+});
