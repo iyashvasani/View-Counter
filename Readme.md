@@ -11,3 +11,8 @@
 10. Copy that API link which just created & paste it under js fetch function.
 
 **Note: Keys and namespaces must have at least 3 characters and less or equal to 64 characters**
+#
+
+### DEMO LINK: https://iyashvasani.github.io/View-Counter/
+
+![image](https://user-images.githubusercontent.com/69917328/122886644-c4aca480-d35d-11eb-9400-d3fbc7476655.png)
